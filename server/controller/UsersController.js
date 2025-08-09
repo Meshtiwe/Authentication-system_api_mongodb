@@ -38,7 +38,7 @@ if (!User){
 if (password === User.password){
     return res.json({
 
-        msg:"auth succesfuly",
+        msg:"auth succesfuly 👍",
         state:1,
         data:User
 
